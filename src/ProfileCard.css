@@ -1,0 +1,15 @@
+
+.profile-card-container {
+  width: 326px;
+  height: 340px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: -1px 1px 83px -10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

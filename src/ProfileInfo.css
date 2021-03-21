@@ -1,0 +1,35 @@
+.profile-info {
+  flex: 0.75;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(images/bg-pattern-card.svg);
+  background-position: top;
+  background-size: contain;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.profile-image {
+  margin-top: 70px;
+}
+
+.profile-image > img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.profile-name {
+  margin-top: 20px;
+}
+
+.profile-name > .age {
+  color: #a6a6a8;
+}
+
+.profile-location {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #a6a6a8;
+}

@@ -1,0 +1,26 @@
+.profile-stats {
+  flex: 0.25;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-stats-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-number {
+  font-weight: bold;
+}
+
+.stats-text {
+  font-size: 12px;
+  color: #a6a6a8;
+  padding-top: 5px;
+}

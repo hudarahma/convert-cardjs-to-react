@@ -1,0 +1,14 @@
+.app {
+  background-color: #4c9fab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -450px -300px, bottom -450px right -300px;
+}
+
